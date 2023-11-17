@@ -7,8 +7,9 @@
 
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screen.swing.PrimaryController">
    <children>
-      <Label text="Primary View" />
-      <Button fx:id="primaryButton" text="Switch to Secondary View" onAction="#switchToSecondary"/>
+      <Label fx:id="labelMsg" text="It's going to show a message" />
+      <Button fx:id="clickMe" text="Click me" onAction="#showHello"/>
+      <Button fx:id="nextPage" text="Next page ->" onAction="#switchToSecondary"/>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
