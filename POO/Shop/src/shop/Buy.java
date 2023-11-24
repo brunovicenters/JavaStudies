@@ -1,6 +1,5 @@
-package shop;// Organize your classes in packages --
+package shop;
 
-// Create Class --
 public class Buy {
     private final int totalPrice;
     private final int numberInstallments;
@@ -15,6 +14,11 @@ public class Buy {
         this.numberInstallments = 1;
     }
 
+    public Buy(int priceByInstallment, int numberInstallments) {
+        this.totalPrice = priceByInstallment * numberInstallments;
+        this.numberInstallments = numberInstallments;
+    }
+
     public int getTotalPrice() {
         return totalPrice;
     }
@@ -23,5 +27,7 @@ public class Buy {
         return numberInstallments;
     }
 
+    public int getPriceByInstallments() {
+        return totalPrice/numberInstallments;
+    }
 }
-
