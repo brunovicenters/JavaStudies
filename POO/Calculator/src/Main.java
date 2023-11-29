@@ -2,7 +2,7 @@ import math.Calculator;
 
 public class Main {
     public static void main(String[] args) {
-        Calculator c1 = new Calculator(2, 4);
+        Calculator c1 = new Calculator(10,34);
 
         System.out.println("Operations for "+c1.fNumber+" and "+c1.sNumber);
         System.out.println("Add: "+c1.add());
