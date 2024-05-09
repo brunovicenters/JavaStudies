@@ -39,9 +39,7 @@ public abstract class Funcionario {
         this.matricula = matricula;
     }
 
-    public void marcarReuniao(int day, int hour, int min){
-        System.out.println("Reunião marcada para o dia " + day + " às " + hour + ":" + min);
-    }
+
 
     public void mensagemParaOChefe(String mensagem) {
         System.out.println("Mensagem: '" + mensagem + "' enviada.");

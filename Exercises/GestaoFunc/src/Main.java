@@ -16,7 +16,7 @@ public class Main {
         Funcionario estagiario = new Estagiario("Tarsila", "6A8V", "Estagiário");
 
         exibirDetalhes(gerente);
-        gerente.marcarReuniao(23, 15, 40);
+        gerente.marcarReuniao();
 
         System.out.println();
         System.out.println("******************************************");
