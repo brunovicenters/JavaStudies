@@ -12,11 +12,11 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Funcionario gerente = new Gerente("Gerson", "1F3E", "Gerente");
-        Funcionario estagiario = new Estagiario("Tarsila", "6A8V", "Estagiário");
+        Gerente gerente = new Gerente("Gerson", "1F3E", "Gerente");
+        Estagiario estagiario = new Estagiario("Tarsila", "6A8V", "Estagiário");
 
         exibirDetalhes(gerente);
-        gerente.marcarReuniao();
+        gerente.marcarReuniao(23, 15, 23);
 
         System.out.println();
         System.out.println("******************************************");

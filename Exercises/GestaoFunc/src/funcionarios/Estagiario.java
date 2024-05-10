@@ -5,6 +5,10 @@ public class Estagiario extends Funcionario {
         super(nome, matricula, cargo);
     }
 
+    public void mensagemParaOChefe(String mensagem) {
+        System.out.println("Mensagem: '" + mensagem + "' enviada.");
+    }
+
     @Override
     public double calcularSalario(){
         return 1350.00 * 0.8;
